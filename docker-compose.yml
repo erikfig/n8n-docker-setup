@@ -13,3 +13,4 @@ services:
     volumes:
       - ./n8n_data:/home/node/.n8n
     restart: unless-stopped
+    user: "1000:1000"
